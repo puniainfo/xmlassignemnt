@@ -7,8 +7,8 @@ import time
 logging.basicConfig(level=logging.DEBUG)
 
 path = os.path.dirname(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
-file_path = os.path.join(path,"code","app","files")
-move_path = os.path.join(path,"code","app","move")
+file_path = os.path.join(path,"xmlassignemnt","app","files")
+move_path = os.path.join(path,"xmlassignemnt","app","move")
 
 def get_file(file_name):
     try:
@@ -45,7 +45,7 @@ def parseXML(xmlfile):
             if length == "02:00:00" and price == "5.98":
                 logging.info('the xml is correct')
             elif price is not None or length is not None:
-                logging.warning('the xml is correct')
+                logging.warning('the xml is incorrect')
                 for app in App_Data:
                     if app.getAttribute("Name") == "Suggested_Price":
                         app.setAttribute("Value","5.98")  
@@ -57,7 +57,6 @@ def parseXML(xmlfile):
 
 def main():
     file_list = [f for f in os.listdir(file_path) if os.path.isfile(os.path.join(file_path, f)) and f.endswith('.xml')]
-    #print(len(file_list))
     if len(file_list) == 0:
         logging.info("No File is Persent")
         return True
@@ -68,7 +67,13 @@ def main():
             parseXML(get_file(file))
             move_file(file)
             return True
-    time.sleep(10)
+    
     main()
     
-main()
+def func_main():
+    main()
+    time.sleep(60) #Call Function again 1 Min
+    func_main()
+
+if __name__ == '__main__':
+    func_main()
