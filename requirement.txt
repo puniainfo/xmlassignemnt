@@ -1,0 +1,1 @@
+-e git+ssh://git@github.com/puniainfo/xmlassignemnt.git@5265a7453db18664f4f386a0e88185ec9354713b#egg=app
