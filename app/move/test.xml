@@ -1,0 +1,95 @@
+<?xml version="1.0" ?><ADI xmlns="http://www.eventis.nl/PRODIS/ADI">
+  <Metadata>
+    <AMS Asset_Class="package" Asset_ID="test036" Asset_Name="Test data" Creation_Date="2021-02-04" Description="Test data" Product="MOD" Provider="Filipe" Provider_ID="0007" Verb="" Version_Major="1" Version_Minor="0"/>
+    <App_Data App="MOD" Name="Metadata_Spec_Version" Value="CableLabsVOD1.1"/>
+  </Metadata>
+  <Asset>
+    <Metadata>
+      <AMS Asset_Class="title" Asset_ID="test036" Asset_Name="Test data" Creation_Date="2021-02-04" Description="Test data" Product="MOD" Provider="Filipe" Provider_ID="0007" Verb="" Version_Major="1" Version_Minor="0"/>
+      <App_Data App="MOD" Name="Type" Value="title"/>
+      <App_Data App="MOD" Name="Title" Value="Test data"/>
+      <App_Data App="MOD" Name="Title_Brief" Value="Test data"/>
+      <App_Data App="MOD" Name="Summary_Long" Value="Test data...Summary_Long"/>
+      <App_Data App="MOD" Name="Summary_Medium" Value="Test data...Summary_Medium"/>
+      <App_Data App="MOD" Name="Summary_Short" Value="Test data...Summary_Short"/>
+      <App_Data App="MOD" Name="Rating" Value="0"/>
+      <App_Data App="MOD" Name="Advisories" Value="0"/>
+      <App_Data App="MOD" Name="Run_Time" Value="00:23:11"/>
+      <App_Data App="MOD" Name="Display_Run_Time" Value="00:23"/>
+      <App_Data App="MOD" Name="Year" Value="1996"/>
+      <App_Data App="MOD" Name="Country_of_Origin" Value="DEU"/>
+      <App_Data App="MOD" Name="Genre" Value="5/1"/>
+      <App_Data App="MOD" Name="Licensing_Window_Start" Value="2021-01-01T00:00:00"/>
+      <App_Data App="MOD" Name="Licensing_Window_End" Value="2022-12-31T23:59:00"/>
+      <App_Data App="MOD" Name="Maximum_Viewing_Length" Value="02:00:00"/>
+      <App_Data App="MOD" Name="Suggested_Price" Value="5.98"/>
+      <App_Data App="MOD" Name="Aspect_Ratio" Value="16:9"/>
+      <App_Data App="MOD" Name="Language" Value="GER"/>
+      <App_Data App="MOD" Name="Episode_Ordinal" Value="25"/>
+      <App_Data App="MOD" Name="Episode_Name" Value="test_date"/>
+      <App_Data App="MOD" Name="Series_ID" Value="SeriesID"/>
+      <App_Data App="MOD" Name="Series_NumberOfItems" Value="26"/>
+      <App_Data App="MOD" Name="Series_Name" Value="Series Name"/>
+      <App_Data App="MOD" Name="Series_Ordinal" Value="01"/>
+      <App_Data App="MOD" Name="Show_ID" Value="SHOW NAME"/>
+      <App_Data App="MOD" Name="Show_NumberOfItems" Value="1"/>
+      <App_Data App="MOD" Name="Show_Name" Value="test data"/>
+    </Metadata>
+    <Asset>
+      <Metadata>
+        <AMS Asset_Class="movie" Asset_ID="test036" Asset_Name="Test data" Creation_Date="2021-02-04" Description="Test data" Product="MOD" Provider="Filipe" Provider_ID="0007" Verb="" Version_Major="1" Version_Minor="0"/>
+        <App_Data App="MOD" Name="Type" Value="movie"/>
+        <App_Data App="MOD" Name="Audio_Type" Value="ger::stereo"/>
+        <App_Data App="MOD" Name="Content_FileSize" Value="652963104"/>
+        <App_Data App="MOD" Name="Content_CheckSum" Value="4f08c89097be4631c391bf15321b1d9a"/>
+        <App_Data App="MOD" Name="Copy_Protection" Value="Y"/>
+        <App_Data App="MOD" Name="Encoding_Type" Value="Cable"/>
+        <App_Data App="MOD" Name="Video_Width" Value="720"/>
+        <App_Data App="MOD" Name="Video_Height" Value="576"/>
+        <App_Data App="MOD" Name="HDContent" Value="N"/>
+        <App_Data App="MOD" Name="3DContent" Value="N"/>
+        <App_Data App="MOD" Name="Video_Type" Value="H264"/>
+        <App_Data App="MOD" Name="Progressive" Value="N"/>
+      </Metadata>
+      <Content Value="video_file.ts"/>
+    </Asset>
+    <Asset>
+      <Metadata>
+        <AMS Asset_Class="image" Asset_ID="test036" Asset_Name="Test data" Creation_Date="2021-02-04" Description="Test data" Product="MOD" Provider="Filipe" Provider_ID="0007" Verb="" Version_Major="1" Version_Minor="0"/>
+        <App_Data App="MOD" Name="Type" Value="image"/>
+        <App_Data App="MOD" Name="Image_Qualifier" Value="HighResLandscape"/>
+        <App_Data App="MOD" Name="Content_FileSize" Value="886543"/>
+        <App_Data App="MOD" Name="Content_CheckSum" Value="79ed4e01163a3de5d2c31fdf0a859383"/>
+      </Metadata>
+      <Content Value="HighResLandscape.jpg"/>
+    </Asset>
+    <Asset>
+      <Metadata>
+        <AMS Asset_Class="image" Asset_ID="test036" Asset_Name="Test data" Creation_Date="2021-02-04" Description="Test data" Product="MOD" Provider="Filipe" Provider_ID="0007" Verb="" Version_Major="1" Version_Minor="0"/>
+        <App_Data App="MOD" Name="Type" Value="image"/>
+        <App_Data App="MOD" Name="Image_Qualifier" Value="HighResPortrait"/>
+        <App_Data App="MOD" Name="Content_FileSize" Value="1633489"/>
+        <App_Data App="MOD" Name="Content_CheckSum" Value="76eb135b61d82c2d22323539e75ec538"/>
+      </Metadata>
+      <Content Value="HighResPortrait.jpg"/>
+    </Asset>
+    <Asset>
+      <Metadata>
+        <AMS Asset_Class="poster" Asset_ID="test036" Asset_Name="Test data" Creation_Date="2021-02-04" Description="Test data" Product="MOD" Provider="Filipe" Provider_ID="0007" Verb="" Version_Major="1" Version_Minor="0"/>
+        <App_Data App="MOD" Name="Type" Value="poster"/>
+        <App_Data App="MOD" Name="Content_FileSize" Value="10053"/>
+        <App_Data App="MOD" Name="Content_CheckSum" Value="b43136d3aebf710deb3bb41953fb7aef"/>
+      </Metadata>
+      <Content Value="poster.jpg"/>
+    </Asset>
+    <Asset>
+      <Metadata>
+        <AMS Asset_Class="box-cover" Asset_ID="test036" Asset_Name="Test data" Creation_Date="2021-02-04" Description="Test data" Product="MOD" Provider="Filipe" Provider_ID="0007" Verb="" Version_Major="1" Version_Minor="0"/>
+        <App_Data App="MOD" Name="Type" Value="box-cover"/>
+        <App_Data App="MOD" Name="Content_FileSize" Value="49446"/>
+        <App_Data App="MOD" Name="Content_CheckSum" Value="e4b4678225ca6c0bdb858d8d92202b4a"/>
+      </Metadata>
+      <Content Value="box-cover.jpg"/>
+    </Asset>
+  </Asset>
+</ADI>
